@@ -1,0 +1,10 @@
+[package]
+name = "mmfbin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mmflib = { path = "../mmflib" }
+dotenv = "0.15.0"
+log = "0.4.14"
+mail-parser = "0.4.4"
